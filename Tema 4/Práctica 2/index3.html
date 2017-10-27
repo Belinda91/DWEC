@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Ejercicio  con librería hammer</title>
+</head>
+
+<body>
+    <p> Haz un ejercicio básico de uso de la librería Hammer</p>
+
+  <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+<!--    Se le mete la librería con esta orden-->
+
+  <img id="imagen" src="gato.jpg">
+
+  <script type="text/javascript">
+    var imagen = document.getElementById('imagen');
+    var mc = new Hammer.Manager(imagen);
+    // crea el pinch y el reconocedor de la rotación (por libreria)
+    var pinch = new Hammer.Pinch();
+    var rotate = new Hammer.Rotate();
+    // Se quiere poder detectar a ambos a la vez
+    pinch.recognizeWith(rotate);
+    //Se añaden al manager
+    mc.add([pinch, rotate]);
+    mc.on("pinch rotate", function(evento) {
+        imagen.textContent += evento.type +" ";
+    });
+  </script>
+
+</body>
+
+</html>
