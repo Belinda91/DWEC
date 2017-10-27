@@ -1,0 +1,33 @@
+<html>
+     <head> 
+         <title>Ejercicio 2 de Touch Event</title>
+        <style>
+            .zona{border:1px solid; height:400;}
+         </style>
+    </head>
+    <body>
+    <h1>Ejercicio 2 touch events</h1>
+    <p>Mejorar el ejercicio anterior para que se muestre información de tantos puntos como soporte mi pantalla.. </p>
+    <div id="coords"></div>
+       <script type="text/javascript">
+           function tocavarios(event) {
+              //  Busca por referencia de div
+              var coords = document.getElementById("coords");
+              coords.innerHTML = '';
+              // Escribe coordenadas
+              for (var i = 0; i < event.touches.length; i++) {
+                coords.innerHTML +=
+                  "x: " +
+                  event.touches[i].pageX +
+                  ", y: " +
+                  event.touches[i].pageY +
+                  "<br>";
+              }
+            }
+
+document.ontouchstart = function(event) {
+  tocavarios(event);
+};
+        </script>
+    </body>
+</html>

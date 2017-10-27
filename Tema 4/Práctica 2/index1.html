@@ -1,0 +1,23 @@
+<html>
+     <head> 
+         <title>Ejercicio de Touch Event</title>
+        <style>
+            .zona{border:1px solid; height:400;}
+         </style>
+    </head>
+    <body>
+    <h1>Ejercicio 1 touch events</h1>
+    <p>Prueba los touch events. Para ello coloca un DIV y muestra las coordenadas x e y en las que se pulsa. </p>
+    <div id="coords"></div>
+       <script type="text/javascript">
+           function tocauno(event) {
+                // Da las coordenadas
+                var coords = document.getElementById("coords");
+                // Escribe las coordenadas
+                coords.innerHTML = 'x: ' + event.touches[0].pageX + ', y: ' + event.touches[0].pageY;
+              }
+
+            document.ontouchstart = function(event){tocauno(event)};
+        </script>
+    </body>
+</html>
