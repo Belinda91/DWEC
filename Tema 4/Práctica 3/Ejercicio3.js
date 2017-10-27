@@ -17,5 +17,5 @@ function cambia() {
 }
 
 function defecto(){
-    document.getElementById("texto").style.fontSize=initial;
+    document.getElementById("texto").style.fontSize="medium";
 }
