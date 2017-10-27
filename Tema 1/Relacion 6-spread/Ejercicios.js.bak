@@ -1,0 +1,8 @@
+function sum_numero(...numeros)
+{	
+	return sum(numeros);
+}
+
+console.log(sum_numero[1,2]);
+console.log(print sum_numero[1,2,3]);
+console.log(print sum_numero[1,2,3,4]);
