@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Ejercicio expresiones regulares</title>
+    <script type="text/javascript" src="Ejercicios.js"></script>
+</head>
+<body>
+    <div>
+      <label for="name">Nombre:</label><br>
+      <input type="text" id="nombre" onblur="validaNombre()"/>
+      <p id="nombreOculto" style="visibility:hidden;">El nombre no puede contener números o caracteres especiales</p>
+    </div>
+    <div>
+      <label for="apellidos">Apellidos:</label><br>
+      <input type="text" id="apellidos" onblur='validaApellidos()' />
+      <p id="apellidoOculto" style="visibility:hidden;>Los apellidos no pueden contener números o caracteres especiales</p>
+    </div>
+    <div>
+      <label for="dni">DNI:</label><br>
+      <input type="text" id="dni" onblur='validaDNI()' />
+      <p id="dniOculto" style="visibility:hidden;">El DNI debe tener el formato '0000000A'</p>
+    </div>
+    <div>
+      <label for="telefono">telefono:</label><br>
+      <input type="text" id="telefono" onblur='validaTelefono()' />
+      <p id="telefonoOculto" style="visibility:hidden;">El teléfono debe comenzar por 6,7,8 o 9 y contener 9 dígitos</p>
+    </div>
+    <div>
+      <label for="mail">E-mail:</label><br>
+      <input type="email" id="email" onblur='validaEmail()' />
+      <p id="emailOculto" style="visibility:hidden;">El email debe tener el formato 'ejemplo@ejemplo.com'</p>
+    </div>
+    <div>
+      <label for="usuario">usuario:</label><br>
+      <input type="text" id="usuario" onblur="validaUsuario()" />
+      <p id="usuarioOculto" style="visibility:hidden;" />El nombre de usuario debe estar formado por al menos 8 caracteres, entre los cuales debe aparecer obligatoriamente algún número y algún signo de puntuación.
+    </div>
+</body>
+</html>

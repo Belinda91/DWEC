@@ -7,7 +7,7 @@ function creaNormal(){
     document.getElementById("enlaces").style.borderColor = "4747bf";
     document.getElementById("enlaces").style.fontWeight = "bold";
     document.getElementById("body").style.backgroundColor = "#edd78f";
-    document.getElementById("vacio").style.height = "500px";
+    document.getElementById("vacio").style.height = "750px";
     document.getElementById("vacio").style.width = "50px";
     document.getElementById("vacio").style.backgroundColor = "#4545e6";
     document.getElementById("negrita").style.fontWeight = "bold";
