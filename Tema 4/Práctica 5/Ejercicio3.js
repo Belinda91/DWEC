@@ -1,0 +1,1 @@
+// Para que se realice lo que se pide se puede usar la orden expires dejándolo vacío. Así conseguimos que se cree como cookie de sesión y se borra solo.
