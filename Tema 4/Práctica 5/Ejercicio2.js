@@ -39,6 +39,8 @@ function compruebaCookie() {
         alert("Bienvenido de nuevo " + usuario);
     } else {
         usuario = document.getElementsByName('userid')[0].value;
+        document.getElementById('contenido').style.fontSize;
+        document.body.style.backgroundColor;
         if (usuario != "" && usuario != null) {
             document.getElementById('conecta').style.display = 'none';
             document.getElementById('desconecta').style.display = 'block';
