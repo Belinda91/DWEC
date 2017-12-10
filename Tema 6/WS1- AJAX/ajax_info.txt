@@ -1,0 +1,4 @@
+<h1>AJAX</h1>
+<p>Soy la página número 2 que espera a ser cambiada por AJAX.</p>
+<p>lalalala me cambiaré pronto</p>
+<h1>Belinda Núñez Lozano</h1>

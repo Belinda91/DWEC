@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bandejadeentrada>
+<correo>
+    <remitente>pepito@inventado.com</remitente>
+    <asunto>Asunto de prueba</asunto>
+</correo>
+<correo>
+    <remitente>juanito@inventado.com</remitente>
+    <asunto>SPAM</asunto>
+</correo>
+<correo>
+    <remitente>larosa@meloinvento.com.com</remitente>
+    <asunto>TE HA TOCADO EL SORTEO</asunto>
+</correo>
+<correo>
+    <remitente>pepito@noesfalso.com</remitente>
+    <asunto>ABREME</asunto>
+</correo>
+<correo>
+	<remitente>prueba@pablomeharetado.com</remitente>
+    <asunto>FUNCIONA</asunto>
+</correo>
+</bandejadeentrada>
