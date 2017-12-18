@@ -1,0 +1,9 @@
+$(document).ready(function(){
+        $('button').click(function(){
+          $('div:first').fadeIn('slow');
+          $('.dos').fadeIn('fast');
+          $('.tres').fadeIn('800ms');
+          $('.cuatro').fadeIn('2000ms');
+          $('div:last').fadeIn('4000ms');
+        })
+      })
